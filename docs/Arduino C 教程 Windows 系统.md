@@ -2423,7 +2423,7 @@ void loop() {
 **2.项目元件：**
 
 |![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/dae45d195fded43701882b0f36f21b98.png)|![图片不存在](./Arduino/media/c562656c96657983e724daed7c8d6202.png)|![图片不存在](./Arduino/media/3cc5c242c0f357b3dc496037a7d8bae8.png)|
-| :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|直流电机*1|面包板专用电源模块*1|6节5号电池盒*1|
 |![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![图片不存在](./Arduino/media/e6fc7ef2600a1bc1fe16301855b52f84.png)|![图片不存在](./Arduino/media/ed228ff5627e0c8cc0c79fa04f1d4d16.png)|
 |NPN型晶体管(S8050)*1|PNP型晶体管(S8550)*1|1KΩ 电阻*1|二极管*1|三叶软桨*1|

@@ -8,11 +8,7 @@
 
 ![Img](./media/img-20241023112325.png)
 
-<span style="background: rgb(255, 251, 0);">如果米思齐(Mixly)官网网站更新，请通过百度网盘分享的文件：mixly2.0-2024。</span>
-<br>
-<span style="background: rgb(255, 251, 0);">链接：[https://pan.baidu.com/s/1sV0DUDKg7OiQcKyIkBI1Ew?pwd=keye](https://pan.baidu.com/s/1sV0DUDKg7OiQcKyIkBI1Ew?pwd=keye) </span>
-<br>
-<span style="background: rgb(255, 251, 0);">提取码：keye </span>
+
 
 点击“Mixly2.0 RC4”进入百度云盘首界面，复制提取码 “<span style="color: rgb(255, 76, 65);">**ny1n**</span>” 至 “**<span style="color: rgb(0, 209, 0);">请输入提取码，不区分大小写</span>**” 的文本框，点击 “**<span style="color: rgb(0, 252, 255);">提取文件</span>**” 进入Mixly软件下载页面，左键单击“mixly2.0”。根据计算机系统选择下载对应的版本，Windows系统一般是下载“**mixly2.0-win32-x64-rc4完整版.zip**”版本，如下图所示。
 
@@ -64,6 +60,13 @@
 这里有MAC安装Mixly2.0.txt文件说明。
 
 ![Img](./media/img-20241023112956.png)
+
+<span style="background: rgb(255, 251, 0);">如果米思齐(Mixly)官网网站更新，请通过百度网盘分享的文件：mixly2.0-2024。</span>
+<br>
+<span style="background: rgb(255, 251, 0);">链接：[https://pan.baidu.com/s/1sV0DUDKg7OiQcKyIkBI1Ew?pwd=keye](https://pan.baidu.com/s/1sV0DUDKg7OiQcKyIkBI1Ew?pwd=keye) </span>
+<br>
+<span style="background: rgb(255, 251, 0);">提取码：keye </span>
+
 
 **页面介绍:**
 
@@ -1369,6 +1372,18 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 从指定的数字管脚读取按键开关的数字信号(高/低电平)。
 
+![Img](./media/img-20241115103741.png)
+
+布尔型（bool）变量的值只有真 （true) 和假 （false）。 C++中如果值非零就为True,为零就是False。这里可以知道ledState初始值为0。
+
+![Img](./media/img-20241115103826.png)
+
+将ledState的当前值取反后再赋值给ledState本身。
+
+![Img](./media/img-20241115103926.png)
+
+这里延时的作用是软件方法消抖。按键机械触点断开、闭合时，由于触点的弹性作用，按键开关不会马上稳定接通或一下子断开，在闭合及断开的瞬间均伴随有一连串的抖动，为了不产生这种现象而作的措施就是按键消抖。代码中检测出键闭合后执行一个延时程序，10ms的延时，让前沿抖动消失后再一次检测键的状态，如果仍保持闭合状态电平，则确认为真正有键按下.
+
 **6.项目代码：**
 
 你可以打开我们提供的代码，也可以自己编写代码，其如下：
@@ -1677,7 +1692,7 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 **2.项目元件：**
 
 |![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/dae45d195fded43701882b0f36f21b98.png)|![图片不存在](./Arduino/media/c562656c96657983e724daed7c8d6202.png)|![图片不存在](./Arduino/media/3cc5c242c0f357b3dc496037a7d8bae8.png)|
-| :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|直流电机*1|面包板专用电源模块*1|6节5号电池盒*1|
 |![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![图片不存在](./Arduino/media/e6fc7ef2600a1bc1fe16301855b52f84.png)|![图片不存在](./Arduino/media/ed228ff5627e0c8cc0c79fa04f1d4d16.png)|
 |NPN型晶体管(S8050)*1|PNP型晶体管(S8550)*1|1KΩ 电阻*1|二极管*1|三叶软桨*1|

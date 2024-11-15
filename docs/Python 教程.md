@@ -1840,7 +1840,7 @@ except:
 **2.项目元件：**
 
 |![图片不存在](./Python/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Python/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Python/media/01c1502f7cc76c09d4d77410dcdd31a6.png)|![图片不存在](./Python/media/b3484a63586f907a33f23fa001c874ee.png)|
-| :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|倾斜开关*1|10KΩ电阻*1|
 |![图片不存在](./Python/media/e8726e55ebfb8e7520e615575ce89204.png)|![图片不存在](./Python/media/11f324f82f890b0691f134e1ea7a3765.png)| ![图片不存在](./Python/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Python/media/b4421594adeb4676d63581a1047c6935.png)|
 |红色 LED*4|220Ω电阻*1|跳线若干|USB 线*1|
