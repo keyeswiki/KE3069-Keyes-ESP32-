@@ -640,16 +640,16 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 import time
 from machine import Pin,PWM
 
-## ESP32 PWM引脚输出的方式与传统控制器不同。
-## 它可以改变频率和占空比通过配置PWM的参数在初始化阶段。
-## 定义GPIO15的输出频率为10000Hz，分配给PWM。
+# ESP32 PWM引脚输出的方式与传统控制器不同。
+# 它可以改变频率和占空比通过配置PWM的参数在初始化阶段。
+# 定义GPIO15的输出频率为10000Hz，分配给PWM。
 
 pwm =PWM(Pin(15,Pin.OUT),10000)
 
 try:
     while True:
-## 占空比范围为0-1023，因此我们使用第一个for回路控制PWM改变占空比值，使PWM输出0% -100%;
-## 使用第二个for回路使PWM输出100%-0%。 
+# 占空比范围为0-1023，因此我们使用第一个for回路控制PWM改变占空比值，使PWM输出0% -100%;
+# 使用第二个for回路使PWM输出100%-0%。 
         for i in range(0,1023):
             pwm.duty(i)
             time.sleep_ms(1)
@@ -658,8 +658,8 @@ try:
             pwm.duty(1023-i)
             time.sleep_ms(1)  
 except:
-## 每次使用PWM时，硬件定时器将打开以配合它。
-## 因此，每次使用PWM后，都需要调用deinit()来关闭定时器。否则，下次PWM可能无法工作.
+# 每次使用PWM时，硬件定时器将打开以配合它。
+# 因此，每次使用PWM后，都需要调用deinit()来关闭定时器。否则，下次PWM可能无法工作.
     pwm.deinit()
 ```
 
@@ -803,19 +803,19 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 ![图片不存在](./Python/media/03361d1c4f6ee83bac60498c2f726dfa.png)
 
 ```
-## 导入Pin、PWM和random库.
+# 导入Pin、PWM和random库.
 from machine import Pin, PWM
 from random import randint
 import time
 
-## 配置GPIO15, GPIO2, GPIO0的输出方式为PWM输出，PWM频率为10000Hz.
+# 配置GPIO15, GPIO2, GPIO0的输出方式为PWM输出，PWM频率为10000Hz.
 pins = [0, 2, 15]
 
 pwm0 = PWM(Pin(pins[0]),10000)  
 pwm1 = PWM(Pin(pins[1]),10000)
 pwm2 = PWM(Pin(pins[2]),10000)
 
-##定义一个函数来设置RGBLED的颜色.
+#定义一个函数来设置RGBLED的颜色.
 def setColor(r, g, b):
     pwm0.duty(1023-r)
     pwm1.duty(1023-g)
@@ -906,9 +906,9 @@ except:
 from machine import Pin
 import time
 
-## 使用阵列定义10个连接点阵屏的GPIO端口，便于操作。.
+# 使用阵列定义10个连接点阵屏的GPIO端口，便于操作。.
 pins = [22, 21, 19, 18, 17, 16, 4, 0, 2, 15]
-## 使用两个for循环分别从左到右打开led，然后从右到左打开led
+# 使用两个for循环分别从左到右打开led，然后从右到左打开led
 def showLed():
     for pin in pins:
         print(pin)
@@ -1124,7 +1124,7 @@ for code in reversed(mask_digits):
 from machine import Pin
 import time
 
-##数码管每个数字引脚
+#数码管每个数字引脚
 a = Pin(18, Pin.OUT)
 b = Pin(13, Pin.OUT)
 c = Pin(2, Pin.OUT)
@@ -1139,9 +1139,9 @@ G2 = Pin(22, Pin.OUT)
 G3 = Pin(14, Pin.OUT)
 G4 = Pin(15, Pin.OUT)
  
-##数码管a到dp对应的引脚
+#数码管a到dp对应的引脚
 d_Pins=[Pin(i,Pin.OUT)  for i in [18,13,2,16,17,19,0,4]]
-##数码管段G1、G2、G3、G4对应的引脚
+#数码管段G1、G2、G3、G4对应的引脚
 w_Pins=[Pin(i,Pin.OUT)  for i in [21,22,14,15]]
  
 number={
@@ -1293,7 +1293,7 @@ while True:
 from machine import Pin
 import time
 
-##定义行引脚并设置为输出.
+#定义行引脚并设置为输出.
 row1 = Pin(14, Pin.OUT)
 row2 = Pin(26, Pin.OUT)
 row3 = Pin(4, Pin.OUT)
@@ -1302,7 +1302,7 @@ row5 = Pin(19, Pin.OUT)
 row6 = Pin(16, Pin.OUT)
 row7 = Pin(18, Pin.OUT)
 row8 = Pin(17, Pin.OUT)
-##定义列的引脚并设置为输出
+#定义列的引脚并设置为输出
 col1 = Pin(32, Pin.OUT)
 col2 = Pin(21, Pin.OUT)
 col3 = Pin(22, Pin.OUT)
@@ -1312,7 +1312,7 @@ col6 = Pin(13, Pin.OUT)
 col7 = Pin(33, Pin.OUT)
 col8 = Pin(25, Pin.OUT)
 
-##将列的引脚设置为低电平
+#将列的引脚设置为低电平
 col1.value(0)
 col2.value(0)
 col3.value(0)
@@ -1322,7 +1322,7 @@ col6.value(0)
 col7.value(0)
 col8.value(0)
 
-##由于点阵的列被设置为低电平，因此当该行的引脚处于高电平时，点阵的对应行将亮起
+#由于点阵的列被设置为低电平，因此当该行的引脚处于高电平时，点阵的对应行将亮起
 def Row(d):
     if(d ==1):
         row1.value(1)  #点亮第一条线
@@ -1341,7 +1341,7 @@ def Row(d):
     if(d ==8):
         row8.value(1)
     
-##关闭格子
+#关闭格子
 def off():
     row1.value(0)
     row2.value(0)
@@ -1420,6 +1420,8 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **74HC595N芯片：** 简单来说就是具有8 位移位寄存器和一个存储器，以及三态输出功能。移位寄存器和存储器同步于不同的时钟，数据在移位寄存器时钟SCK的上升沿输入，在存储寄存器时钟RCK的上升沿进入的存储寄存器中去。如果两个时钟连在一起，则移位寄存器总是比存储寄存器早一个脉冲。移位寄存器有一个串行移位输入端（SI）和一个用于级联的串行输出端（SQH）,8位移位寄存器可以异步复位（低电平复位），存储寄存器有一个8位三态并行的总线输出，当输出使能（OE）被使能（低电平有效）将存储寄存器中输出至74HC595N的引脚（总线）。
 
+![Img](./media/img-20241115082411.png)
+
 **引脚说明：**
 
 | 引脚： | 引脚说明： |
@@ -1457,18 +1459,18 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 ![图片不存在](./Python/media/7910b3fa47e7049819f9b282129a1ebc.png)
 
 ```
-## 导入time和my74HC595库.
+# 导入time和my74HC595库.
 from my74HC595 import Chip74HC595
 import time
 
-## 创建Chip74HC595对象并配置引脚
+# 创建Chip74HC595对象并配置引脚
 chip = Chip74HC595(14, 12, 13)
-## ESP32-14: 74HC595-DS(14)
-## ESP32-12: 74HC595-STCP(12)
-## ESP32-13: 74HC595-SHCP(11)
+# ESP32-14: 74HC595-DS(14)
+# ESP32-12: 74HC595-STCP(12)
+# ESP32-13: 74HC595-SHCP(11)
 
-##第一个for循环使LED从左到右分别点亮
-##而第二个for循环使它从右向左分别点亮.
+#第一个for循环使LED从左到右分别点亮
+#而第二个for循环使它从右向左分别点亮.
 while True:
     x = 0x01
     for count in range(8):
@@ -1651,10 +1653,10 @@ except:
 from machine import Pin
 import time
 
-## 初始化无源蜂鸣器
+# 初始化无源蜂鸣器
 buzzer = Pin(15,Pin.OUT)
 
-##模拟两种不同的频率
+#模拟两种不同的频率
 while True:
     #输出500HZ频率声音
     for i in range(80):
@@ -1784,7 +1786,7 @@ import time
 led = Pin(4, Pin.OUT) # 创建引脚4为LED对象，设置引脚4为输出                  
 button = Pin(15, Pin.IN, Pin.PULL_UP) #Pin15创建引脚15按钮对象，设置GP15为输入
 
-##定义一个函数并将其命名为reverseGPIO()，用于反转LED的输出电平
+#定义一个函数并将其命名为reverseGPIO()，用于反转LED的输出电平
 def reverseGPIO():
     if led.value():
         led.value(0)     #LED熄灭
@@ -1847,7 +1849,9 @@ except:
 
 ![图片不存在](./Python/media/966683cc81a185103df1862a16d7a844.png)
 
-倾斜开关也叫数字开关，里面有一个可以滚动的金属球，采用金属球滚动与底部导电板接触的原理来控制电路的通断。倾斜开关是滚珠型倾斜感应单方向性触发开关，当倾斜传感器向触发端（两根金属脚端）倾斜时，倾斜开关处于闭路状态，模拟端口的电压约为5V(二进制数为1023)，这样，LED会亮起。当倾斜开关在水平位置或向另一端倾斜时，倾斜开关处于开路状态，模拟端口的电压约为0V(0二进制)，LED将会关闭。
+倾斜开关也叫数字开关或球形开关，里面有一个金属球。它用于检测小角度的倾斜。
+
+原理很简单：当开关倾斜一定角度时，里面的球会向下滚动，接触到连接到外面引脚的两个触点，从而触发电路。否则，球将远离触点，从而断开电路。
 
 在程序中，我们根据模拟端口的电压值，是否大于2.5V(512二进制)来判断开关是开还是关。
 
@@ -2026,7 +2030,7 @@ import time
 import lcd128_32_fonts
 from lcd128_32 import lcd128_32
 
-##i2c配置
+#i2c配置
 clock_pin = 22
 data_pin = 21
 bus = 0
@@ -2341,17 +2345,17 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 ![图片不存在](./Python/media/70cc8d4580c334ea44caea505755439d.png)
 
 ```
-## 导入 Pin, ADC 和DAC 库.
+# 导入 Pin, ADC 和DAC 库.
 from machine import ADC,Pin,DAC
 import time
 
-## 打开并配置0-3.3V的ADC
+# 打开并配置0-3.3V的ADC
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
 
-##每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
-##并将这些数据打印到“Shell”. 
+#每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
+#并将这些数据打印到“Shell”. 
 try:
     while True:
         adcVal=adc.read()
@@ -2482,17 +2486,17 @@ except:
 ![图片不存在](./Python/media/242367ca826a76828cb7ac881a12994a.png)
 
 ```
-## 导入 Pin, ADC and DAC 库.
+# 导入 Pin, ADC and DAC 库.
 from machine import ADC,Pin,DAC
 import time
 
-## 打开并配置0-3.3V的ADC 
+# 打开并配置0-3.3V的ADC 
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
 
-## 每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
-## 并将这些数据打印到“Shell”. 
+# 每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
+# 并将这些数据打印到“Shell”. 
 try:
     while True:
         adcVal=adc.read()
@@ -2539,18 +2543,18 @@ except:
 from machine import ADC, Pin
 import time
 
-## 打开并配置0-3.3V的ADC 
+# 打开并配置0-3.3V的ADC 
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
-## 创建引脚15为LED对象，设置引脚15为输出
+# 创建引脚15为LED对象，设置引脚15为输出
 led = Pin(15, Pin.OUT) 
-## 创建引脚4为蜂鸣器对象，设置引脚4为输出
+# 创建引脚4为蜂鸣器对象，设置引脚4为输出
 buzzer = Pin(4, Pin.OUT)   
  
-## 如果火焰传感器检测到火焰，蜂鸣器将发出蜂鸣声
-##，当模拟值大于500时，LED闪烁
-## 否则，蜂鸣器不响，LED熄灭
+# 如果火焰传感器检测到火焰，蜂鸣器将发出蜂鸣声
+#，当模拟值大于500时，LED闪烁
+# 否则，蜂鸣器不响，LED熄灭
 
 while True:
     adcVal=adc.read()
@@ -2635,17 +2639,17 @@ while True:
 ![图片不存在](./Python/media/6dbfec268ee1d9868e23139c197f53c5.png)
 
 ```
-## 导入 Pin, ADC 和 DAC 库.
+# 导入 Pin, ADC 和 DAC 库.
 from machine import ADC,Pin,DAC
 import time
 
-## 打开并配置0-3.3V的ADC
+# 打开并配置0-3.3V的ADC
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
 
-##每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
-##并将这些数据打印到“Shell”. 
+#每0.1秒读取一次ADC值，将ADC值转换为DAC值并输出，
+#并将这些数据打印到“Shell”. 
 try:
     while True:
         adcVal=adc.read()
@@ -2794,7 +2798,7 @@ from machine import Pin, ADC
 import time
 import math
 
-##设置 ADC
+#设置 ADC
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
@@ -2852,12 +2856,12 @@ import math
 import lcd128_32_fonts
 from lcd128_32 import lcd128_32
 
-##设置 ADC
+#设置 ADC
 adc=ADC(Pin(36))
 adc.atten(ADC.ATTN_11DB)
 adc.width(ADC.WIDTH_12BIT)
 
-##i2c配置
+#i2c配置
 clock_pin = 22
 data_pin = 21
 bus = 0
@@ -3027,7 +3031,7 @@ except:
 ```
 import network #导入 network 库.
 
-##请输入正确的路由器名称和密码.
+#请输入正确的路由器名称和密码.
 ssidAP         = 'ESP32_Wifi' #输入AP名称
 passwordAP     = '12345678'  #输入AP密码
 
@@ -3036,7 +3040,7 @@ gateway        = '192.168.1.1'
 subnet         = '255.255.255.0'
 dns            = '8.8.8.8'
 
-##配置ESP32为AP模式.
+#配置ESP32为AP模式.
 ap_if = network.WLAN(network.AP_IF)
 
 def AP_Setup(ssidAP,passwordAP):
