@@ -111,7 +111,9 @@ ESP32主控板驱动程序安装方法请参照前面的“<span style="color: r
 **添加Mixly库文件:**
 
 <span style="color: rgb(255, 76, 65);">注意：Mixly库文件( index 库)必须添加好，否则后面涉及到相关模块的示例代码是打不开的</span>。
-
+<br>
+<span style="color: rgb(0, 209, 0); background: rgb(255, 251, 0);">特别提醒：库文件在上面 **<span style="color: rgb(255, 76, 65);">资料下载</span>** 处提供有，请下载并且安装好库文件。</span>
+<br>
 Mixly软件下载安装后，点击 <span style="color: rgb(255, 76, 65);">Arduino ESP32</span> 进入代码编辑器，先点击右上角“ 设置 ”，再点击“ 管理库 ”进入添加库文件界面。如下图所示：
 
 ![Img](./media/img-20241023114012.png)

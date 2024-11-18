@@ -278,7 +278,7 @@
 
 ![图片不存在](./Arduino/media/1bd7dab9f8e78713466d019451110080.png)
 
-![图片不存在](./Arduino/media/032996f813d7ccb74e4c6c8a6a13486f032996f813d7ccb74e4c6c8a6a13486f.png)
+![图片不存在](./Arduino/media/032996f813d7ccb74e4c6c8a6a13486f.png)
 
 （6）点击“**工具**”→“**开发版:**”，就可以看到安装好的ESP32 Arduino，你可以在里面查看到各种不同型号ESP32开发板，选择对应的ESP32开发板型号。
 
@@ -289,6 +289,8 @@
 ![图片不存在](./Arduino/media/b240beb6e80e99e17c399d6d65f03fb4.png)
 
 **3.添加arduino库文件**
+
+<span style="color: rgb(0, 209, 0); background: rgb(255, 251, 0);">特别提醒：库文件在上面 **<span style="color: rgb(255, 76, 65);">资料下载</span>** 处提供有，请下载并且安装好库文件。</span>
 
 我们提供的Arduino库文件的路径：**..\库文件\Arduino_C_Windows系统**。如下图：
 
