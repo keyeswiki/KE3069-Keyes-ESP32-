@@ -2,7 +2,7 @@
 /* 
  * Filename    : Small_Fan
  * Description : S8050 triode drives the motor working
- * Auther      : http//www.keyestudio.com
+ * Auther      : http//www.keyes-robot.com
 */
 
 void setup() {
