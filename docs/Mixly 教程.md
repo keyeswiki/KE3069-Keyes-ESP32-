@@ -188,7 +188,7 @@ Mixly软件下载安装后，点击 <span style="color: rgb(255, 76, 65);">Ardui
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 | :--: | :--: |
 | ESP32*1 | USB 线*1 |
 
@@ -196,7 +196,7 @@ Mixly软件下载安装后，点击 <span style="color: rgb(255, 76, 65);">Ardui
 
 在本项目中，我们通过USB线将ESP32和电脑连接起来。
 
-![图片不存在](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
+![](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
 
 **4.代码说明：**
 
@@ -247,7 +247,7 @@ Mixly软件下载安装后，点击 <span style="color: rgb(255, 76, 65);">Ardui
 
 ![Img](./media/img-20241023141718.png)
 
-<span style="color: rgb(255, 76, 65);">**注意**：（**下同**）</span> 如果上传代码不成功，可以再次点击![Img](./media/img-20241023135146.png)后用手按住ESP32主板上的Boot键![图片不存在](./Arduino/media/a3ce49fbd6f40f09869aa7e1d9f902f8.png)，出现上传进度百分比数后再松开Boot键，如下图所示：
+<span style="color: rgb(255, 76, 65);">**注意**：（**下同**）</span> 如果上传代码不成功，可以再次点击![Img](./media/img-20241023135146.png)后用手按住ESP32主板上的Boot键![](./Arduino/media/a3ce49fbd6f40f09869aa7e1d9f902f8.png)，出现上传进度百分比数后再松开Boot键，如下图所示：
 
 ![Img](./media/img-20241023141942.png)
 
@@ -275,21 +275,21 @@ Mixly软件下载安装后，点击 <span style="color: rgb(255, 76, 65);">Ardui
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|红色LED*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*1|跳线*2|USB 线*1|
 
 **3.元件知识：**
 
 **（1）LED**
 
-![图片不存在](./Arduino/media/32369e035f09fa12898e90cd3f916cbe.png)
+![](./Arduino/media/32369e035f09fa12898e90cd3f916cbe.png)
 
 LED是一种被称为“发光二极管”的半导体，是一种由半导体材料(硅、硒、锗等)制成的电子器件。它有正极和负极。短腿为负极，接GND，长腿为正极，接3.3V或5V。
 
-![图片不存在](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
+![](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
 
 **（2）五色环电阻**
 
@@ -297,24 +297,24 @@ LED是一种被称为“发光二极管”的半导体，是一种由半导体�
    
 我们可以使用电阻来保护敏感组件，如LED。电阻的强度（以Ω为单位）用小色环标记在电阻器的主体上。每种颜色代表一个数字，你可以用电阻对照卡查找。
 
-![图片不存在](./Arduino/media/e60472f717ced1cc0bd94f4972ef0cd0.png)
+![](./Arduino/media/e60472f717ced1cc0bd94f4972ef0cd0.png)
 
 在这个套件中，我们提供了3个具有不同电阻值的五色环电阻。这里以3个五色环电阻为例：
 220Ω电阻×10
 
-![图片不存在](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
+![](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
 
 10KΩ电阻×10
 
-![图片不存在](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
+![](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
 
 1KΩ电阻×10
 
-![图片不存在](./Arduino/media/931d1535563f6d817300f97c0946a01c.png)
+![](./Arduino/media/931d1535563f6d817300f97c0946a01c.png)
 
 在相同的电压下，会有更小的电流和更大的电阻。电流、电压、电阻之间的联系可以用公式表示：I=U/R。在下图中，目前通过R1的电流: I = U / R = 3 V / 10 KΩ= 0.0003A= 0.3mA。
 
-![图片不存在](./Arduino/media/997accddd11490d13b769b9f3477daa7.png)
+![](./Arduino/media/997accddd11490d13b769b9f3477daa7.png)
 
 不要把电阻值很低的电阻直接连接在电源两极，这样会使电流过高而损坏电子元件。电阻是没有正负极之分。
 
@@ -322,17 +322,17 @@ LED是一种被称为“发光二极管”的半导体，是一种由半导体�
 
 面包板是实验室中用于搭接电路的重要工具。面包板上有许多孔，可以插入集成电路和电阻等电路元件。熟练掌握面包板的使用方法是提高实验效率，减少实验故障出现几率的重要基础之一。下面就面包板的结构和使用方法做简单介绍。一个典型的面包板如下所示：
 
-![图片不存在](./Arduino/media/d4cb46e6b01d820bb150f0e8a122417e.png)
+![](./Arduino/media/d4cb46e6b01d820bb150f0e8a122417e.png)
 
  面包板的外观和内部结构如上图所示，常见的最小单元面包板分上、中、下三部分，上面和下面部分一般是由一行或两行的插孔构成的窄条，中间部分是由中间一条隔离凹槽和上下各5 行的插孔构成的条。
 
-![图片不存在](./Arduino/media/2e9ef45f88652609af40b031ed0f0084.png)
+![](./Arduino/media/2e9ef45f88652609af40b031ed0f0084.png)
 
 在面包板的两个窄条分别有两行插孔，两行之间是不连通的，一般是作为电源引入的通路。上方第一行标有“+”的一行有10组插孔（内部都是连通），均为正极；上方第二行标有“-”的一行有10组插孔，（内部都是连通），均为接地。面包板下方的第一行与第二行结构同上。如需用到整个面包板，通常将“+”与“+”用导线连接起来，“-”与“-”用导线连接起来。
 
 中间部分宽条是由中间一条隔离凹槽和上下各5 行的插孔构成。在同一列中的5 个插孔是互相连通的，列和列之间以及凹槽上下部分则是不连通的。外观及结构如下图：
 
-![图片不存在](./Arduino/media/8690e125a8f918f5e2b7950526e98ebb.png)
+![](./Arduino/media/8690e125a8f918f5e2b7950526e98ebb.png)
 
 中间部分宽条的连接孔分为上下两部分，是面包板的主工作区，用来插接原件和跳线。在同一列中的5个插孔（即a-b-c-d-e，f-g-h-i-j）是互相连通的；列和列之间以及凹槽上下部分是不连通的。在做实验的时候，通常是使用两窄一宽组成的小单元，在宽条部分搭接电路的主体部分，上面的窄条取一行做电源，下面的窄条取一行做接地。中间宽条用于连接电路，由于凹槽上下是不连通的，所以集成块一般跨插在凹槽上。
 
@@ -340,7 +340,7 @@ LED是一种被称为“发光二极管”的半导体，是一种由半导体�
 
 ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电脑连起来。
 
-![图片不存在](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
+![](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
 
 **4.项目接线图：**
 
@@ -350,17 +350,17 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 <span style="color: rgb(255, 76, 65);">警告：短路可能导致电路中产生大电流，造成元件过热，并对硬件造成永久性损坏。</span>
 
-![图片不存在](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
+![](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
 
 <span style="color: rgb(255, 76, 65);">注意: </span>
 
 怎样连接LED 
 
-![图片不存在](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
+![](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
 
 怎样识别五色环220Ω电阻
 
-![图片不存在](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
+![](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
 
 **5.代码说明：**
 
@@ -389,7 +389,7 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 项目代码上传成功后，利用USB线供电，LED被点亮。
 
-![图片不存在](./Arduino/media/96672306fbbac2d8b33a55315d0d8fc5.png)
+![](./Arduino/media/96672306fbbac2d8b33a55315d0d8fc5.png)
 
 
 
@@ -403,10 +403,10 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|红色LED*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*1|跳线*2|USB 线*1|
 
 **3.项目接线图：**
@@ -417,18 +417,18 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 <span style="color: rgb(255, 76, 65);">警告：短路可能导致电路中产生大电流，造成元件过热，并对硬件造成永久性损坏。 </span>
 
-![图片不存在](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
+![](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
 
 
 <span style="color: rgb(255, 76, 65);">注意: </span>
 
 怎样连接LED 
 
-![图片不存在](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
+![](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
 
 怎样识别五色环220Ω电阻
 
-![图片不存在](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
+![](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
 
 **4.项目代码：**
 
@@ -454,7 +454,7 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 项目代码上传成功后，利用USB线上电，可以看到的现象是：可以看到电路中的LED会反复闪烁。
 
-![图片不存在](./Arduino/media/bbd161f32b47a175d78773391bd7b0c1.png)
+![](./Arduino/media/bbd161f32b47a175d78773391bd7b0c1.png)
 
 
 
@@ -474,21 +474,21 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|红色LED*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*1|跳线*2|USB 线*1|
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/e739a6e4a95fa8bbbefb26ef955dc465.png)
+![](./Arduino/media/e739a6e4a95fa8bbbefb26ef955dc465.png)
 
 **模拟信号 & 数字信号** 
 
 模拟信号在时间和数值上都是连续的信号。相反，数字信号或离散时间信号是由一系列数字组成的时间序列。生活中的大多数信号都是模拟信号，一个熟悉的模拟信号的例子是：全天的温度是连续不断变化的，而不是突然从0到10的瞬间变化。然而，数字信号的值可以瞬间改变。这个变化用数字表示为1和0(二进制代码的基础)。如下图所示，我们可以更容易地看出它们的差异。
 
-![图片不存在](./Arduino/media/550c1d587189ce5ac3678f44b08ac888.png)
+![](./Arduino/media/550c1d587189ce5ac3678f44b08ac888.png)
 
 在实际应用中，我们经常使用二进制作为数字信号，即一系列的0和1。由于二进制信号只有两个值(0或1)，因此具有很大的稳定性和可靠性。最后，可以将模拟信号和数字信号相互转换。
 
@@ -496,7 +496,7 @@ ESP32需要3.3V-5V电源，在本项目中，我们通过用USB线将ESP32和电
 
 脉宽调制(PWM)是一种利用数字信号控制模拟电路的有效方法。普通处理器不能直接输出模拟信号。PWM技术使这种转换(将数字信号转换为模拟信号)非常方便。PWM技术利用数字引脚发送一定频率的方波，即高电平和低电平的输出，交替持续一段时间。每一组高电平和低电平的总时间一般是固定的，称为周期(注:周期的倒数是频率)。高电平输出的时间通常称为脉宽，占空比是脉宽(PW)与波形总周期(T)之比的百分比。高电平输出持续时间越长，占空比越长，模拟信号中相应的电压也就越高。下图显示了对应于脉冲宽度0%-100%的模拟信号电压在0V-3.3V(高电平为3.3V)之间的变化情况.
 
-![图片不存在](./Arduino/media/0c29da4ca7a2fee2f5a0078eacc9e88a.png)
+![](./Arduino/media/0c29da4ca7a2fee2f5a0078eacc9e88a.png)
 
 PWM占空比越长，输出功率越高。既然我们了解了这种关系，我们就可以用PWM来控制LED的亮度或直流电机的速度等等。从上面可以看出，PWM并不是真实的模拟信号，电压的有效值等于相应的模拟信号。因此，我们可以控制LED和其他输出模块的输出功率，以达到不同的效果。
 
@@ -504,13 +504,13 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 在ESP32上，LEDC(PWM)控制器有16个独立通道，每个通道可以独立控制频率，占空比，甚至精度。与传统的PWM引脚不同，ESP32的PWM输出引脚是可配置的，每个通道有一个或多个PWM输出引脚。最大频率与比特精度的关系如下公式所示：
 
-![图片不存在](./Arduino/media/c6afada712f786a0827ced2172fed124.png)
+![](./Arduino/media/c6afada712f786a0827ced2172fed124.png)
 
 其中比特的最大值为31。例如: 生成PWM的8位精度(2ˆ8 = 256。取值范围为0 ~ 255)，最大频率为80,000,000/255 = 312,500Hz。)
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
+![](./Arduino/media/6d79aa47daab6bc5dc46b1e62215d9c8.png)
 
 **5.代码说明：**
 
@@ -565,7 +565,7 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 项目代码上传成功后，利用USB线上电，可以看到的现象是：电路中的LED从暗逐渐变亮，再从亮逐渐变暗，就像呼吸一样。
 
-![图片不存在](./Arduino/media/7a0d2717b48056cbef36f880212d8e07.png)
+![](./Arduino/media/7a0d2717b48056cbef36f880212d8e07.png)
 
 
 
@@ -578,15 +578,15 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|![图片不存在](./Arduino/media/36f39ba5899a86990d02500371bc0e77.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|![](./Arduino/media/36f39ba5899a86990d02500371bc0e77.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|红色LED*1|黄色 LED*1|
-|![图片不存在](./Arduino/media/f361df3b38005087cb22efc34689d554.png)|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/f361df3b38005087cb22efc34689d554.png)|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |绿色LED*1|220Ω电阻*3|跳线若干|USB 线*1|
 
 **3.项目接线图：**
 
-![图片不存在](./Arduino/media/6122c8ef01c7a01dc5491df1c73a00b1.png)
+![](./Arduino/media/6122c8ef01c7a01dc5491df1c73a00b1.png)
 
 **4.项目代码：**
 
@@ -626,7 +626,7 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 项目代码上传成功后，利用USB线上电，你会看到的现象是：1.首先，红灯会亮5秒，然后熄灭；2.其次，黄灯会闪烁3次，然后熄灭；3.然后，绿灯会亮5秒，然后熄灭；4.继续运行上述1-3个步骤。
 
-![图片不存在](./Arduino/media/88468668fc5f1d198863c79778862194.png)
+![](./Arduino/media/88468668fc5f1d198863c79778862194.png)
 
 
 
@@ -638,7 +638,7 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 ## 项目06 RGB LED
 
-![图片不存在](./Arduino/media/bd43dadde69fa133646046983ca30f0f.png)
+![](./Arduino/media/bd43dadde69fa133646046983ca30f0f.png)
 
 **1.项目介绍：**
 
@@ -646,17 +646,17 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/6de88c5b9c38d8ab879ae91eb51431b7.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/6de88c5b9c38d8ab879ae91eb51431b7.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|RGB LED*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*3|跳线若干|USB 线*1|
 
 **3.元件知识：**
 
 显示器大多遵循RGB颜色标准，电脑屏幕上的所有颜色都是由红、绿、蓝三种颜色以不同比例混合而成。  
 
-![图片不存在](./Arduino/media/ae51546482ff149a5cd40ead3d110bc8.png)
+![](./Arduino/media/ae51546482ff149a5cd40ead3d110bc8.png)
 
 这个RGB LED有4个引脚，每个颜色(红，绿，蓝)和一个共同的阴极。为了改变RGB led的亮度，我们可以使用ESP的PWM引脚。PWM引脚会给RGB led不同占空比的信号以获得不同的颜色。
 
@@ -664,7 +664,7 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/a89020210f9ff33ca99ddf347cc86a21.png)
+![](./Arduino/media/a89020210f9ff33ca99ddf347cc86a21.png)
 
 **5.代码说明：**
 
@@ -700,7 +700,7 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电后，你会看到的现象是：RGB LED开始显示随机颜色。
 
-![图片不存在](./Arduino/media/b926527c01e66d984f86facdb97e10fc.png)
+![](./Arduino/media/b926527c01e66d984f86facdb97e10fc.png)
 
 
 
@@ -735,10 +735,10 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/325f351a1cc5c9af86988ddafd03fa19.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|红色LED*10|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*10|跳线若干|USB 线*1|
 
 **3.项目接线图:**
@@ -818,15 +818,15 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/205aad52163781b8f1857212f1011848.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/205aad52163781b8f1857212f1011848.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|一位数码管*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*8|跳线若干|USB 线*1|
 
 **3.元件知识：** 
 
-![图片不存在](./Arduino/media/24cd9e937ce10d6bd7bd04581d758894.png)
+![](./Arduino/media/24cd9e937ce10d6bd7bd04581d758894.png)
 
 **一位数码管显示原理：** 数码管显示是一种半导体发光器件。它的基本单元是一个发光二极管(LED)。数码管显示根据段数可分为7段数码管和8段数码管。8段数码管比7段多一个LED单元(用于小数点显示)。七段LED显示屏的每段是一个单独的LED。根据LED单元接线方式，数码管可分为共阳极数码管和共阴极什数码管。
 
@@ -834,7 +834,7 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 在共阳极7段数码管中，所有段的LED阳极(正极)都连接在一起，你应该把共阳极连接到+5V。要点亮一个分段LED，你可以将其关联的引脚设置为LOW。
 
-![图片不存在](./Arduino/media/19ff4c77c2703c262a9cd5295724ae02.png)
+![](./Arduino/media/19ff4c77c2703c262a9cd5295724ae02.png)
 
 数码管的每个部分由一个LED组成。所以当你使用它的时候，你也需要使用一个限流电阻。否则，LED会被烧坏。在这个实验中，我们使用了一个普通的<span style="color: rgb(255, 76, 65);">共阴极一位数码管</span>。正如我们上面提到的，你应该将公共阴极连接到GND。要点亮一个分段LED，你可以将其关联的引脚设置为HIGH。
 
@@ -842,9 +842,9 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 <span style="color: rgb(255, 76, 65);">注意：</span>插入面包板的七段数码管方向与接线图一致，右下角多一个点。
 
-![图片不存在](./Arduino/media/b1774fdf03e96a8b6a16d03db21a93a0.png)
+![](./Arduino/media/b1774fdf03e96a8b6a16d03db21a93a0.png)
 
-![图片不存在](./Arduino/media/da76f2ea8684ac4bb13d8b55d272977a.png)
+![](./Arduino/media/da76f2ea8684ac4bb13d8b55d272977a.png)
 
 **5.代码说明：**
 
@@ -881,7 +881,7 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电后，你会看到的现象是：一位数码管将显示从9到0的数字。
 
-![图片不存在](./Arduino/media/06886089efa6a52fef3a5e85cd3327cc.png)
+![](./Arduino/media/06886089efa6a52fef3a5e85cd3327cc.png)
 
 
 
@@ -908,15 +908,15 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/9fdfea69b62531a92309052760130694.png) |
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/9fdfea69b62531a92309052760130694.png) |
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|四位数码管*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*8|跳线若干|USB 线*1|
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/57fbc9480875664d1ad27536ff79728d.png)
+![](./Arduino/media/57fbc9480875664d1ad27536ff79728d.png)
 
 **四位数码管：** 四位数码管有共阳极和共阴极两种四位数码管，显示原理是和一位数码管是类似的，都是8个GPIO口控制数码管的显示段，就是8个led灯，不过，这里是4位的，所以就还需要4个GPIO口来控制位选择端，就是选择哪个单个数码管亮，位的切换很快，肉眼区分不出来，这样看起来是多个数码管同时显示。
 
@@ -924,17 +924,17 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 下图为4位数码管的引脚图，G1、G2、G3、G4就是控制位的引脚。
 
-![图片不存在](./Arduino/media/da1ad5bb24e7bcd8b2671641ed38f3c4.png)
+![](./Arduino/media/da1ad5bb24e7bcd8b2671641ed38f3c4.png)
 
 下图为4位数码管内部布线原理图
 
-![图片不存在](./Arduino/media/2b44ecde85d4f9fcaa73cfcd2e6914d9.png)
+![](./Arduino/media/2b44ecde85d4f9fcaa73cfcd2e6914d9.png)
 
-![图片不存在](./Arduino/media/84fbe7aa78a614af5e5e8ada6c7a509d.png)
+![](./Arduino/media/84fbe7aa78a614af5e5e8ada6c7a509d.png)
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/b34ecf777f13629448cd300a8c33e39c.png)
+![](./Arduino/media/b34ecf777f13629448cd300a8c33e39c.png)
 
 **5.项目代码：**
 
@@ -964,32 +964,32 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/e5d2b82a75e728b09b97cc15056b0287.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/e5d2b82a75e728b09b97cc15056b0287.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|8×8点阵屏*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |220Ω电阻*8|跳线若干|USB 线*1|
 
 **3.元件知识：**
 
 **8×8点阵：** 是由64个led灯组成，有行共阳极和行共阴极两种，我们的模块是行共阳极的，也就是每一行有一条线将LED的正极连到一起，列就是将LED灯的负极连接到一起，看下图：
 
-![图片不存在](./Arduino/media/c41aaa44085da33d18ef06727b575091.png)
+![](./Arduino/media/c41aaa44085da33d18ef06727b575091.png)
 
 每个LED被放置在一行和一列的交叉点上。当某一行的电平为1，某列的电平为0时，对应的LED会亮起。如果你想点亮第一个点上的LED，你应该将引脚9设置为高电平，引脚13设置为低电平。如果你想点亮第一排的led，你应该把引脚9设置为高电平，把引脚13、3、4、10、6、11、15和16设置为低电平。如果您想点亮第一列的led，将引脚13设置为低电平，将引脚9、14、8、12、1、7、2和5设置为高电平。
 
 **8×8点阵屏的外部视图如下所示：**
 
-![图片不存在](./Arduino/media/fec2ed85eb857e75ef5f3692fa6a4325.png)
+![](./Arduino/media/fec2ed85eb857e75ef5f3692fa6a4325.png)
 
-![图片不存在](./Arduino/media/1c0b9e68ffa8d605e0b4ee1b36e07d57.png)
+![](./Arduino/media/1c0b9e68ffa8d605e0b4ee1b36e07d57.png)
 
-![图片不存在](./Arduino/media/086139dd80ed8bc7b7f291357ec94f4f.png)
+![](./Arduino/media/086139dd80ed8bc7b7f291357ec94f4f.png)
 
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/38b8f66bb31399c80d56e4bed07b3803.png)
+![](./Arduino/media/38b8f66bb31399c80d56e4bed07b3803.png)
 
 **5.代码说明：**
 
@@ -1025,7 +1025,7 @@ RGB led由三种颜色(红、绿、蓝)组成，通过混合这三种基本颜�
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：8*8点阵屏依次显示数字0~9，循环进行。
 
-![图片不存在](./Arduino/media/d979f0b9a2cd828104fa2155632fe690.png)
+![](./Arduino/media/d979f0b9a2cd828104fa2155632fe690.png)
 
 
 
@@ -1058,15 +1058,15 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/44e4bc7bbc88eafd59a57fc4876f6725.png)|![图片不存在](./Arduino/media/0bec60f258b235ba8a8a332fd1b6e5fe.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/44e4bc7bbc88eafd59a57fc4876f6725.png)|![](./Arduino/media/0bec60f258b235ba8a8a332fd1b6e5fe.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|74HC595N芯片*1|红色LED*8|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
 |220Ω电阻*8|跳线若干|USB 线*1| |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/46bf6b6fb5968bea5b7fd226a6f95567.png)
+![](./Arduino/media/46bf6b6fb5968bea5b7fd226a6f95567.png)
 
 **74HC595N芯片：** 简单来说就是具有8 位移位寄存器和一个存储器，以及三态输出功能。移位寄存器和存储器同步于不同的时钟，数据在移位寄存器时钟SCK的上升沿输入，在存储寄存器时钟RCK的上升沿进入的存储寄存器中去。如果两个时钟连在一起，则移位寄存器总是比存储寄存器早一个脉冲。移位寄存器有一个串行移位输入端（SI）和一个用于级联的串行输出端（SQH）,8位移位寄存器可以异步复位（低电平复位），存储寄存器有一个8位三态并行的总线输出，当输出使能（OE）被使能（低电平有效）将存储寄存器中输出至74HC595N的引脚（总线）。
 
@@ -1088,9 +1088,9 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 <span style="color: rgb(255, 76, 65);">注意：</span>需要注意74HC595N芯片插入的方向。
 
-![图片不存在](./Arduino/media/9b0649bf40ed46557baabcf617c69804.png)
+![](./Arduino/media/9b0649bf40ed46557baabcf617c69804.png)
 
-![图片不存在](./Arduino/media/cc4e68fb791ca0f40d0e6554d43b1ab2.png)
+![](./Arduino/media/cc4e68fb791ca0f40d0e6554d43b1ab2.png)
 
 **5.项目代码：**
 
@@ -1119,7 +1119,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，可以看到的现象是：8个LED开始以流水模式闪烁。
 
-![图片不存在](./Arduino/media/de7ef1d58423282ec05b12fdc0af0292.png)
+![](./Arduino/media/de7ef1d58423282ec05b12fdc0af0292.png)
 
 
 
@@ -1138,35 +1138,35 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/a802ce7dc086858873e587c19b45578d.png)|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/a802ce7dc086858873e587c19b45578d.png)|![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|有源蜂鸣器*1|NPN型晶体管(S8050)*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
 |1KΩ电阻*1|跳线若干|USB线*1| |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/7ac473b007da81c891ca12b4c82fac4a.png)
+![](./Arduino/media/7ac473b007da81c891ca12b4c82fac4a.png)
 
 **有源蜂鸣器：** 它内部有一个简单的振荡器电路，可以将恒定的直流电转换成特定频率的脉冲信号。一旦有源蜂鸣器收到一个高电平，它将产生声音。而无源蜂鸣器是一种内部没有振动源的集成电子蜂鸣器，它必须由2K-5K方波驱动，而不是直流信号。这两个蜂鸣器的外观非常相似，但是一个带有绿色电路板的蜂鸣器是无源蜂鸣器，而另一个带有黑色胶带的是有源蜂鸣器。无源蜂鸣器不能区分正极性而有源蜂鸣器是可以，如下所示：
 
-![图片不存在](./Arduino/media/a33496a4d5eb90ea4d980459d7654b0f.png)
+![](./Arduino/media/a33496a4d5eb90ea4d980459d7654b0f.png)
 
-![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)
+![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)
 
 **晶体管:** 由于蜂鸣器需要很大的电流，ESP32输出能力的GPIO不能满足要求，这里需要一个NPN型晶体管来放大电流。晶体管，全称:半导体晶体管，是一种控制电流的半导体器件。晶体管可以用来放大微弱信号，也可以用作开关。它有三个电极(pin)：基极(b)，集电极(c)和发射极(e)。当电流通过“be”之间时，“ce”将允许几倍的电流通过(晶体管放大)，此时，晶体管在放大区工作。当“be”之间的电流超过某个值时，“ce”将不再允许电流增加，此时晶体管工作在饱和区。晶体管有两种类型如下所示：PNP和NPN
 
-![图片不存在](./Arduino/media/96deb6c440780b1bc8acde29ef214727.png)
+![](./Arduino/media/96deb6c440780b1bc8acde29ef214727.png)
 
 <span style="color: rgb(255, 76, 65);">在我们的套件中，PNP晶体管标记为8550,NPN晶体管标记为8050。</span>
 
 基于晶体管的特性，它常被用作数字电路中的开关。由于单片机输出电流的能力很弱，我们将使用晶体管来放大电流和驱动大电流的元件。在使用NPN晶体管驱动蜂鸣器时，通常采用以下方法：如果GPIO输出高电平，电流将流过R1，晶体管将传导，蜂鸣器将发出声音。如果GPIO输出低电平，没有电流流过R1，晶体管就不会传导，蜂鸣器也不会响。在使用PNP晶体管驱动蜂鸣器时，通常采用以下方法：如果GPIO输出低电平，电流将流过R1，晶体管将传导，蜂鸣器将发出声音。如果GPIO输出高电平，没有电流流过R1，晶体管就不会传导，蜂鸣器也不会响。
 
-![图片不存在](./Arduino/media/05d42ad7919cc237e007cd2457aacd7c.png)
+![](./Arduino/media/05d42ad7919cc237e007cd2457aacd7c.png)
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/45b50e33587ccd6c5c2b5af7c7ba7658.png)
+![](./Arduino/media/45b50e33587ccd6c5c2b5af7c7ba7658.png)
 
 <span style="color: rgb(255, 76, 65);">注意：该电路中蜂鸣器的电源为5V。在3.3V的电源下，蜂鸣器可以工作，但会降低响度。</span>
 
@@ -1201,7 +1201,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，可以看到的现象是：有源蜂鸣器发出“滴滴”声。
 
-![图片不存在](./Arduino/media/4d1cee558b3cb395234d05214995c631.png)
+![](./Arduino/media/4d1cee558b3cb395234d05214995c631.png)
 
 
 
@@ -1225,25 +1225,25 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/8b2bc33166824a904168c38b960fe574.png)|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/8b2bc33166824a904168c38b960fe574.png)|![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|无源蜂鸣器*1|NPN型晶体管(S8050)*1|
-|![图片不存在](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
+|![](./Arduino/media/a487df5effb3b0ae28e7601cad88c97b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
 |1KΩ电阻*1|跳线若干|USB线*1| |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/352568cc59e03453c9433f866631bf50.png)   
+![](./Arduino/media/352568cc59e03453c9433f866631bf50.png)   
 
 **无源蜂鸣器：** 它是一种内部没有振动源的集成电子蜂鸣器。它必须由2K-5K方波驱动，而不是直流信号。与有源蜂鸣器的外观非常相似，但是一个带有绿色电路板的蜂鸣器是无源蜂鸣器，而另一个带有黑色胶带的是有源蜂鸣器。无源蜂鸣器不能区分正极性而有源蜂鸣器是可以，如下图：
 
-![图片不存在](./Arduino/media/9e2535b132d6c88b45b2b8dfdf6dbda4.png)
+![](./Arduino/media/9e2535b132d6c88b45b2b8dfdf6dbda4.png)
 
 **晶体管:** 请参考**项目12** 。
 
 **4.项目接线图:**
 
-![图片不存在](./Arduino/media/9116a43de7b0f2dc1cdb0496468706f3.png)
+![](./Arduino/media/9116a43de7b0f2dc1cdb0496468706f3.png)
 
 **5.代码说明：**
 
@@ -1282,7 +1282,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：无源蜂鸣器播放音乐。
 
-![图片不存在](./Arduino/media/f602628b53d8dd59744d5405b604f8c6.png)
+![](./Arduino/media/f602628b53d8dd59744d5405b604f8c6.png)
 
 
 
@@ -1312,36 +1312,36 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/4c27c3e6c2224e12fd1bd298669f700c.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/4c27c3e6c2224e12fd1bd298669f700c.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|按键*1|
-|![图片不存在](./Arduino/media/b3484a63586f907a33f23fa001c874ee.png)|![图片不存在](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|![图片不存在](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|
+|![](./Arduino/media/b3484a63586f907a33f23fa001c874ee.png)|![](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|![](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|
 |10KΩ电阻*1|红色 LED*1|220Ω电阻*1|
-|![图片不存在](./Arduino/media/4214d58466508ada517d241d46485b7b.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/4214d58466508ada517d241d46485b7b.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |按键帽*1|跳线若干|USB 线*1|
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/50b8a411811e86cb4204a2e0377282f4.png)
+![](./Arduino/media/50b8a411811e86cb4204a2e0377282f4.png)
 
 **按键：** 按键可以控制电路的通断，把按键接入电路中，不按下按键的时候电路是断开的，
 
 一按下按键电路就通啦，但是松开之后就又断了。可是为什么按下才通电呢？这得从按键的内部构造说起。没按下之前，电流从按键的一端过不去另一端；按下的时候，按键内部的金属片把两边连接起来让电流通过。
 
-按键内部结构如图：![图片不存在](./Arduino/media/013b1897a0308c71d7e5ed0eaf64198d.png)，未按下按键之前，1、2就是导通的，3、4也是导通的，但是1、3或1、4或2、3或2、4是断开（不通）的；只有按下按键时，1、3或1、4或2、3或2、4才是导通的。
+按键内部结构如图：![](./Arduino/media/013b1897a0308c71d7e5ed0eaf64198d.png)，未按下按键之前，1、2就是导通的，3、4也是导通的，但是1、3或1、4或2、3或2、4是断开（不通）的；只有按下按键时，1、3或1、4或2、3或2、4才是导通的。
 
 在设计电路时，按键开关是最常用的一种元件。
 
 **按键的原理图:**
 
-![图片不存在](./Arduino/media/00096ba2b3cb95b8d02e075261acb181.png)
+![](./Arduino/media/00096ba2b3cb95b8d02e075261acb181.png)
   
 **什么是按键抖动？**
 
 我们想象的开关电路是“按下按键-立刻导通”“再次按下-立刻断开”，而实际上并非如此。
 按键通常采用机械弹性开关，而机械弹性开关在机械触点断开闭合的瞬间（通常 10ms左右），会由于弹性作用产生一系列的抖动，造成按键开关在闭合时不会立刻稳定的接通电路，在断开时也不会瞬时彻底断开。
 
-![图片不存在](./Arduino/media/c4d829daa9d08e80d4538b901c700b8c.png)
+![](./Arduino/media/c4d829daa9d08e80d4538b901c700b8c.png)
 
 **那又如何消除按键抖动呢？**
 
@@ -1350,23 +1350,23 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 所以我们在代码中加入了0.02秒的延时以实现按键防抖的功能。
 
-![图片不存在](./Arduino/media/3591ca9171277a78bf782c32525e1812.png)
+![](./Arduino/media/3591ca9171277a78bf782c32525e1812.png)
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/79c310407b3091e58739fda1c916f412.png)
+![](./Arduino/media/79c310407b3091e58739fda1c916f412.png)
 
 <span style="color: rgb(255, 76, 65);">注意: </span>
 
 怎样连接LED 
 
-![图片不存在](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
+![](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
 
 怎样识别五色环220Ω电阻和五色环10KΩ电阻
 
-![图片不存在](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
+![](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
 
-![图片不存在](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
+![](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
 
 **5. 代码说明：**
 
@@ -1429,7 +1429,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：按下按钮，LED亮起；当按钮松开时，LED仍亮着。再次按下按钮，LED熄灭；当按钮释放时，LED保持关闭。是不是很像个小台灯？
 
-![图片不存在](./Arduino/media/cba65f3e78fc23732983efae1f0441e4.png)
+![](./Arduino/media/cba65f3e78fc23732983efae1f0441e4.png)
 
 
 
@@ -1457,15 +1457,15 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/01c1502f7cc76c09d4d77410dcdd31a6.png)|![图片不存在](./Arduino/media/b3484a63586f907a33f23fa001c874ee.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/01c1502f7cc76c09d4d77410dcdd31a6.png)|![](./Arduino/media/b3484a63586f907a33f23fa001c874ee.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|倾斜开关*1|10KΩ电阻*1|
-|![图片不存在](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|![图片不存在](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)| ![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
+|![](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|![](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)| ![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|
 |红色 LED*4|220Ω电阻*1|跳线若干|USB 线*1|
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/966683cc81a185103df1862a16d7a844.png)
+![](./Arduino/media/966683cc81a185103df1862a16d7a844.png)
 
 倾斜开关也叫数字开关或球形开关，里面有一个金属球。它用于检测小角度的倾斜。
 
@@ -1473,23 +1473,23 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 这里用倾斜开关的内部结构来说明它是如何工作的，显示如下图：
 
-![图片不存在](./Arduino/media/ed8fb48d5fbce7033fad9ffa5de67808.png)
+![](./Arduino/media/ed8fb48d5fbce7033fad9ffa5de67808.png)
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/02d5f7df75aa8062f7b9399a47ae4285.png)
+![](./Arduino/media/02d5f7df75aa8062f7b9399a47ae4285.png)
 
 <span style="color: rgb(255, 76, 65);">注意: </span>
 
 怎样连接LED 
 
-![图片不存在](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
+![](./Arduino/media/cbb16ef4d8cb62a4001d1a05ae3ac615.png)
 
 怎样识别五色环220Ω电阻和五色环10KΩ电阻
 
-![图片不存在](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
+![](./Arduino/media/951ce7d7778b34bf8fbdb3de1b8c3116.png)
 
-![图片不存在](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
+![](./Arduino/media/2d3f0996515352c92c07d17e074e7308.png)
 
 **5.代码说明：**
 
@@ -1540,7 +1540,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：将面包板倾斜到一定角度，led就会一个一个地亮起来。当回到上一个角度时，led会一个一个关闭。就像沙漏一样，随着时间的推移，沙子漏了出来。
 
-![图片不存在](./Arduino/media/2db9ee9bf59debc53c46aa954da31d47.png)
+![](./Arduino/media/2db9ee9bf59debc53c46aa954da31d47.png)
 
 
 
@@ -1582,21 +1582,21 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)|
 | :--: | :--: | :--: |
 |ESP32*1|面包板*1|LCD_128X32_DOT*1|
-|![图片不存在](./Arduino/media/4191d5454859076aa2a6c069185be177.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
+|![](./Arduino/media/4191d5454859076aa2a6c069185be177.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| |
 |4P转杜邦线公单*1|USB 线*1| |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)
+![](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)
 
 **LCD_128X32_DOT：** 一个像素为128*32的液晶屏模块，它的驱动芯片为ST7567A。模块使用IIC通信方式，它不仅可以显示英文字母、符号，还可以显示中文文字和图案。使用时，还可以在代码中设置，让英文字母和符号等显示不同大小。
 
 **LCD_128X32_DOT原理图：**
 
-![图片不存在](./Arduino/media/a6f56f3c6481d37dc0dcf9cf74587781.png)
+![](./Arduino/media/a6f56f3c6481d37dc0dcf9cf74587781.png)
 
 **LCD_128X32_DOT技术参数：**
 
@@ -1612,7 +1612,7 @@ ESP32上只有32个IO端口，我们如何点亮大量的led呢? 有时可能会
 
 **4.项目接线图：**
 
-![图片不存在](./Arduino/media/229ce4e1ad8b01c71577d8f777e8195b.png)
+![](./Arduino/media/229ce4e1ad8b01c71577d8f777e8195b.png)
 
 **5.代码说明：**
 
@@ -1658,7 +1658,7 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：128X32LCD模块显示屏第一行显示“KEYESTUDIO”、第二行显示“ABCDEFGHIJKLMNOPQR”、第三行显示“123456789+-*/<>=$@”、第四行显示“%^&(){}:;'|?,.~\\[]”。
 
-![图片不存在](./Arduino/media/eeada568b7ef98fefa27e9f22435befd.png)
+![](./Arduino/media/eeada568b7ef98fefa27e9f22435befd.png)
 
 
 
@@ -1693,12 +1693,12 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/dae45d195fded43701882b0f36f21b98.png)|![图片不存在](./Arduino/media/c562656c96657983e724daed7c8d6202.png)|![图片不存在](./Arduino/media/3cc5c242c0f357b3dc496037a7d8bae8.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/dae45d195fded43701882b0f36f21b98.png)|![](./Arduino/media/c562656c96657983e724daed7c8d6202.png)|![](./Arduino/media/3cc5c242c0f357b3dc496037a7d8bae8.png)|
 | :--: | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|直流电机*1|面包板专用电源模块*1|6节5号电池盒*1|
-|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![图片不存在](./Arduino/media/e6fc7ef2600a1bc1fe16301855b52f84.png)|![图片不存在](./Arduino/media/ed228ff5627e0c8cc0c79fa04f1d4d16.png)|
+|![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![](./Arduino/media/e6fc7ef2600a1bc1fe16301855b52f84.png)|![](./Arduino/media/ed228ff5627e0c8cc0c79fa04f1d4d16.png)|
 |NPN型晶体管(S8050)*1|PNP型晶体管(S8550)*1|1KΩ 电阻*1|二极管*1|三叶软桨*1|
-|![图片不存在](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![图片不存在](./Arduino/media/4c49cdffc9e5e6f1aad838120d35897a.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| | |
+|![](./Arduino/media/8d920d12138bd3b4e62f02cecc2c63a3.png)|![](./Arduino/media/4c49cdffc9e5e6f1aad838120d35897a.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| | |
 |跳线若干|5号电池(<span style="color: rgb(255, 76, 65);">自备</span>)*6|USB 线*1| | |
 
 **3.元件知识:**
@@ -1707,13 +1707,13 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 灰色圈一端为负极(<span style="color: rgb(255, 76, 0);">**-**</span>)，则另一端为正极(<span style="color: rgb(255, 76, 0);">**+**</span>)，如下图所示：
 
-![图片不存在](./Arduino/media/1a0eeedb91bbad682badb3f1884ef050.png)
+![](./Arduino/media/1a0eeedb91bbad682badb3f1884ef050.png)
 
 二极管具有单向导电性能，导通时电流方向是由阳极通过管子流向阴极。
 
 **面包板专用电源模块：**
 
-![图片不存在](./Arduino/media/c562656c96657983e724daed7c8d6202.png)
+![](./Arduino/media/c562656c96657983e724daed7c8d6202.png)
 
 **说明：**
 
@@ -1733,17 +1733,17 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 **接口说明：**
 
-![图片不存在](./Arduino/media/9ab1fa7ff5eccecdc0fe6218fad6df79.png)
+![](./Arduino/media/9ab1fa7ff5eccecdc0fe6218fad6df79.png)
 
 **原理图：**
 
-![图片不存在](./Arduino/media/5139ee652d196f215b53c35d8ab24166.png)
+![](./Arduino/media/5139ee652d196f215b53c35d8ab24166.png)
 
 **4. 项目接线图1：**
 
 <span style="color: rgb(255, 76, 65);">（这个实验是使用S8050（NPN型晶体管）控制电机）</span>
 
-![图片不存在](./Arduino/media/bff2df6024667c53eee4f26a7b074911.png)
+![](./Arduino/media/bff2df6024667c53eee4f26a7b074911.png)
 
 (<span style="color: rgb(255, 76, 65);">注: 先接好线，然后在直流电机上安装一个小风扇叶片。</span>)
 
@@ -1770,14 +1770,14 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 编译并上传代码到ESP32，代码上传成功后，外接电源，上电后，你会看到的现象是：电机转动4秒，停止2秒，以此规律重复执行。
 
-![图片不存在](./Arduino/media/3fa9f68a6dae4cc181e84774f7ba3db4.png)
+![](./Arduino/media/3fa9f68a6dae4cc181e84774f7ba3db4.png)
 
 
 **7. 项目接线图2：**
 
 <span style="color: rgb(255, 76, 65);">（这个实验是使用S8550（PNP型晶体管）控制电机）</span>
 
-![图片不存在](./Arduino/media/48132a2a51ed288bd3329358690883b3.png)
+![](./Arduino/media/48132a2a51ed288bd3329358690883b3.png)
 
 (<span style="color: rgb(255, 76, 65);">注: 先接好线，然后在直流电机上安装一个小风扇叶片。</span>)
 
@@ -1789,7 +1789,7 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 编译并上传代码到ESP32，代码上传成功后，外接电源，上电后，你会看到的现象是：电机转动4秒，停止2秒，以此规律重复执行。
 
-![图片不存在](./Arduino/media/8fc203e455a610033b39ef535e470c6c.png)
+![](./Arduino/media/8fc203e455a610033b39ef535e470c6c.png)
 
 
 ## 项目18 调光灯
@@ -1800,21 +1800,21 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/75c2400a88559cf22295c22147625d98.png)|![图片不存在](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/75c2400a88559cf22295c22147625d98.png)|![](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|可调电位器*1|红色 LED*1|
-|![图片不存在](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|![图片不存在](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) | |  
+|![](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|![](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) | |  
 |220Ω电阻*1|USB 线*1|跳线若干 | |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/4a10a2fa7d595fb2683977c08657de34.png)
+![](./Arduino/media/4a10a2fa7d595fb2683977c08657de34.png)
 
 **可调电位器：** 可调电位器是电阻和模拟电子元件的一种，具有0和1两种状态(高电平和低电平)。模拟值不同，其数据状态呈现为1 ~ 1024等线性状态。
 
 **ADC：** ADC是一种电子集成电路，用于将模拟信号(如电压)转换为由1和0组成的数字或二进制形式。我们在ESP32上的ADC的范围是12位，这意味着分辨率是2^12=4096，它表示一个范围(3.3V)将被平均划分为4096份，模拟值的范围对应于ADC值。因此，ADC拥有的比特越多，模拟的分区就越密集，最终转换的精度也就越高。
 
- ![图片不存在](./Arduino/media/8f067a222c20bd1a949bb504f34df15d.png)
+ ![](./Arduino/media/8f067a222c20bd1a949bb504f34df15d.png)
 
 分节1:0V—(3.3/4095)V 范围内的模拟量对应数字0;
 
@@ -1824,29 +1824,29 @@ LCD_128X32_DOT显示字符串（数字，符号和字母等等）。
 
 下面的模拟将被相应地划分。换算公式如下：
 
-![图片不存在](./Arduino/media/66f4a644cdb895d4a7910a3f1ac90ccd.png)
+![](./Arduino/media/66f4a644cdb895d4a7910a3f1ac90ccd.png)
 
 **DAC：** 这一过程的可逆需要DAC，数字到模拟转换器。数字I/O端口可以输出高电平和低电平(0或1)，但不能输出中间电压值，这就是DAC有用的地方。ESP32有两个8位精度的DAC输出引脚GPIO25和GPIO26，可以将VCC(这里是3.3V)分成2^8=256个部分。例如，当数字量为1时，输出电压值为3.3/256×1V，当数字量为128时，输出电压值为3.3/256 ×128=1.65V, DAC的精度越高，输出电压值的精度就越高。
 
 换算公式如下：
 
-![图片不存在](./Arduino/media/0412cb6efce5c1d33e84aeac0931c402.png)
+![](./Arduino/media/0412cb6efce5c1d33e84aeac0931c402.png)
 
 **ESP32主板上的ADC：** 
 
 ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模拟引脚定义如下表所示：
 
-![图片不存在](./Arduino/media/6e8bbcdf34c3bca663c73236fbb3f83f.png)
+![](./Arduino/media/6e8bbcdf34c3bca663c73236fbb3f83f.png)
 
 **ESP32主板上的DAC：**
 
-![图片不存在](./Arduino/media/379d9c501ea4dfc829b6b52dba5a13e7.png)
+![](./Arduino/media/379d9c501ea4dfc829b6b52dba5a13e7.png)
 
 **4.读取电位器的模拟值：**
 
 我们将电位器连接到ESP32的模拟IO口上来读取电位器的模拟值。接线请参照以下接线图：
 
-![图片不存在](./Arduino/media/669570530b1f544aea810426eff2c4c3.jpg)
+![](./Arduino/media/669570530b1f544aea810426eff2c4c3.jpg)
 
 
 **代码说明：**
@@ -1885,7 +1885,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 在前面一步，我们读取了电位器的模拟值，现在我们需要将电位器的ADC值转换成LED的亮度，来做成一个亮度可调的灯。见如下所示接线图：
 
-![图片不存在](./Arduino/media/231f15fcdc1a50e5847ca582872499b6.jpg)
+![](./Arduino/media/231f15fcdc1a50e5847ca582872499b6.jpg)
 
 **6.项目代码：**
 
@@ -1895,7 +1895,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：转动电位器手柄，LED的亮度会相应地改变。
 
-![图片不存在](./Arduino/media/9bb5d9041ac5f0d5a4b20b31291457e6.png)
+![](./Arduino/media/9bb5d9041ac5f0d5a4b20b31291457e6.png)
 
 
 
@@ -1919,21 +1919,21 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/41b3d98fdbcbfb06e20591b80a03d586.png)|![图片不存在](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/41b3d98fdbcbfb06e20591b80a03d586.png)|![](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|火焰传感器*1|红色 LED*1|
-|![图片不存在](./Arduino/media/a802ce7dc086858873e587c19b45578d.png)|![图片不存在](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![图片不存在](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![图片不存在](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |
+|![](./Arduino/media/a802ce7dc086858873e587c19b45578d.png)|![](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |
 |有源蜂鸣器*1|220Ω电阻*1|10KΩ电阻*1|跳线若干 |
-|![图片不存在](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![图片不存在](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![图片不存在](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)| |
+|![](./Arduino/media/6c3a06627faa0d87dd69cbd361929240.png)|![](./Arduino/media/d23956651d15073e880387c5a5419d80.png)|![](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)| |
 |NPN型晶体管(S8050)*1|1kΩ 电阻*1 |USB 线*1| |
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/41b3d98fdbcbfb06e20591b80a03d586.png)
+![](./Arduino/media/41b3d98fdbcbfb06e20591b80a03d586.png)
 
 **火焰传感器（红外接收三极管）：** 火焰会发出一定程度的IR光，这种光人眼是看不到的，但我们的红外接收三极管可以检测到它，并提醒微控制器（如ESP32）已经检测到火灾。红外接收三极管可以探测火焰，然后将火焰亮度转换为波动水平信号。红外接收三极管的短引脚是负极，另一个长引脚是正极。我们应该连接短引脚（负极)到5V，连接长引脚(正极)到模拟引脚，一个电阻和GND。如下图所示：
 
-![图片不存在](./Arduino/media/dde086c54e0343400582892ae91d818a.png)
+![](./Arduino/media/dde086c54e0343400582892ae91d818a.png)
 
 <span style="color: rgb(255, 76, 65);">注意：</span>火焰传感器应避开日光、汽车头灯、白炽灯直接照射，也不能对着热源(如暖气片、加热器)或空调，以避免环境温度较大的变化而造成误报。同时还易受射频辐射的干扰。
 
@@ -1941,7 +1941,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 我们首先用一个简单的代码来读取火焰传感器的模拟值并打印出来。接线请参照以下接线图：
 
-![图片不存在](./Arduino/media/5c151d185e7967e77ff4a8d3e17331f2.png)
+![](./Arduino/media/5c151d185e7967e77ff4a8d3e17331f2.png)
 
 **代码说明：**
 
@@ -1972,7 +1972,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 接下来，我们将使用火焰传感器和蜂鸣器、LED制作一个有趣的项目——火灾报警装置。当火焰传感器检测到火焰时，LED闪烁，蜂鸣器报警。
 
-![图片不存在](./Arduino/media/056501565145dc46ce00dfb750d87e9f.png)
+![](./Arduino/media/056501565145dc46ce00dfb750d87e9f.png)
 
 **6.项目代码：**
 
@@ -1984,7 +1984,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：当火焰传感器检测到火焰时，LED闪烁，蜂鸣器报警；否则，LED不亮，蜂鸣器不响。
 
-![图片不存在](./Arduino/media/1790b8a741eea4def3eac4e122049b01.png)
+![](./Arduino/media/1790b8a741eea4def3eac4e122049b01.png)
 
 
 
@@ -2004,23 +2004,23 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/72c1149c0cbd940aa8cf2356ba75ce6b.png)|![图片不存在](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/72c1149c0cbd940aa8cf2356ba75ce6b.png)|![](./Arduino/media/e8726e55ebfb8e7520e615575ce89204.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|光敏电阻*1|红色 LED*1|
-|![图片不存在](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![图片不存在](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![图片不存在](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |![图片不存在](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)|
+|![](./Arduino/media/11f324f82f890b0691f134e1ea7a3765.png)|![](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |![](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)|
 |220Ω电阻*1|10KΩ电阻*1|跳线若干 |USB 线*1|
 
 **3.元件知识：**
 
-![图片不存在](./Arduino/media/72c1149c0cbd940aa8cf2356ba75ce6b.png)
+![](./Arduino/media/72c1149c0cbd940aa8cf2356ba75ce6b.png)
 
 光敏电阻：是一种感光电阻，其原理是光敏电阻表面上接收亮度(光)降低电阻，光敏电阻的电阻值会随着被探测到的环境光的强弱而变化。有了这个特性，我们可以使用光敏电阻来检测光强。光敏电阻及其电子符号如下：
 
-![图片不存在](./Arduino/media/1905cf730948d3735f192c184361e2a2.png)
+![](./Arduino/media/1905cf730948d3735f192c184361e2a2.png)
 
 下面的电路是用来检测光敏电阻电阻值的变化：
 
-![图片不存在](./Arduino/media/7ad49eab2d60085716bb365d33f055bd.png)
+![](./Arduino/media/7ad49eab2d60085716bb365d33f055bd.png)
 
 在上述电路中，当光敏电阻的电阻因光强的变化而改变时，光敏电阻与电阻R2之间的电压也会发生变化。因此，通过测量这个电压就可以得到光的强度。本项目是采用上图左边的电路来接线的。 
 
@@ -2028,7 +2028,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 我们首先用一个简单的代码来读取光敏电阻的模拟值并打印出来。接线请参照以下接线图：
 
-![图片不存在](./Arduino/media/c19e5b58e073c49a22dd0fdfdb38d7f7.png)
+![](./Arduino/media/c19e5b58e073c49a22dd0fdfdb38d7f7.png)
 
 **代码说明：**
 
@@ -2059,7 +2059,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 我们在前面做了一个小小的调光灯，现在我们来做一个光控灯。它们的原理是相同的，即通过ESP32获取传感器的模拟值，然后调节LED的亮度。
 
-![图片不存在](./Arduino/media/eac0e08c0dde6b435907827d36eb1957.png)
+![](./Arduino/media/eac0e08c0dde6b435907827d36eb1957.png)
 
 **6.项目代码：**
 
@@ -2069,7 +2069,7 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 编译并上传代码到ESP32，代码上传成功后，利用USB线上电，你会看到的现象是：当减弱光敏电阻所处环境中的光线强度时，LED变亮，反之，LED变暗。
 
-![图片不存在](./Arduino/media/b640e71ba0840d6f99fb089ab248ca4f.png)
+![](./Arduino/media/b640e71ba0840d6f99fb089ab248ca4f.png)
 
 
 
@@ -2091,10 +2091,10 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 **2.项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![图片不存在](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)|![图片不存在](./Arduino/media/4b024c34465b366d3067277b397e5fc0.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/a2aa343488c11843f13ae0413547c673.png)|![](./Arduino/media/c4b08ad87310ea27bc06383257cc7f8f.png)|![](./Arduino/media/4b024c34465b366d3067277b397e5fc0.png)|
 | :--: | :--: | :--: | :--: |
 |ESP32*1|面包板*1|LCD_128X32_DOT*1|热敏电阻*1|
-|![图片不存在](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![图片不存在](./Arduino/media/4191d5454859076aa2a6c069185be177.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| ![图片不存在](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |
+|![](./Arduino/media/a225cd286d071225ea0261768ac3f418.png)|![](./Arduino/media/4191d5454859076aa2a6c069185be177.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)| ![](./Arduino/media/4107849550a2c6d09592b2a28e291b54.png) |
 |10KΩ电阻*1|4P转杜邦线公单*1|USB 线*1|跳线若干 |
 
 
@@ -2102,11 +2102,11 @@ ESP32有16个引脚，可以用来测量模拟信号。GPIO引脚序列号和模
 
 **热敏电阻：** 热敏电阻是一种温度敏感电阻。当热敏电阻感应到温度的变化时，它的电阻就会发生变化。我们可以利用热敏电阻的这种特性来检测温度强度。热敏电阻及其电子符号如下所示。
 
-![图片不存在](./Arduino/media/4da14068ab4c20e5e807fdd08a82466f.png)
+![](./Arduino/media/4da14068ab4c20e5e807fdd08a82466f.png)
 
 热敏电阻的电阻值与温度的关系为：
 
-![图片不存在](./Arduino/media/4efb34b50f2cdb5b2ed6f351ce475474.png)
+![](./Arduino/media/4efb34b50f2cdb5b2ed6f351ce475474.png)
 
 式中：
 
@@ -2120,17 +2120,17 @@ B为温度指数；
 
 T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度。对于热敏电阻的参数，我们使用：B=3950, R=10KΩ，T1=25℃。热敏电阻的电路连接方法与光敏电阻类似，如下所示：
 
-![图片不存在](./Arduino/media/1ac82d185d19f35348be2eec7717d721.png)
+![](./Arduino/media/1ac82d185d19f35348be2eec7717d721.png)
 
 我们可以利用ADC转换器测得的值来得到热敏电阻的电阻值，然后利用公式来得到温度值。因此，温度公式可以推导为：
 
-![图片不存在](./Arduino/media/7a610a5fe8f27e2000432bcef2f765e9.png)
+![](./Arduino/media/7a610a5fe8f27e2000432bcef2f765e9.png)
 
 **4.读取热敏电阻的值：**
 
 首先我们学习热敏电阻读取当前的ADC值、电压值和温度值并将其打印出来。请按下面的接线图接好线：
 
-![图片不存在](./Arduino/media/aa12d903640a4b579c986272f0f7e163.png)
+![](./Arduino/media/aa12d903640a4b579c986272f0f7e163.png)
 
 **代码说明：**
 
@@ -2162,7 +2162,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **5.温度仪表的接线图：**
 
-![图片不存在](./Arduino/media/5b77fc42f5fa8ab213447116da53f777.png)
+![](./Arduino/media/5b77fc42f5fa8ab213447116da53f777.png)
 
 **6.项目代码：**
 
@@ -2189,7 +2189,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **1. 项目元件：**
 
-|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![图片不存在](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|![图片不存在](./Arduino/media/4d0be04892e2038c372f82caba521f64.png)|
+|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|![](./Arduino/media/b4421594adeb4676d63581a1047c6935.png)|![](./Arduino/media/4d0be04892e2038c372f82caba521f64.png)|
 | :--: | :--: |:--: |
 | ESP32*1 | USB 线*1 |智能手机/平板电脑（<span style="color: rgb(255, 76, 65);">自备</span>）*1|
 
@@ -2197,7 +2197,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 下面是它的标志。
 
-![图片不存在](./Arduino/media/4d6bebf2b0859865e28b426bd3477fac.png)
+![](./Arduino/media/4d6bebf2b0859865e28b426bd3477fac.png)
 
 **2.元件知识：**
 
@@ -2207,13 +2207,13 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **从模式：** 处于从模式的蓝牙模块只能接受来自主机的连接请求，但不能发起连接请求。与主机设备连接后，可以向主机设备发送数据，也可以从主机设备接收数据。蓝牙设备之间可以进行数据交互，一个设备处于主模式，另一个设备处于从模式。当它们进行数据交互时，处于主模式的蓝牙设备会搜索并选择附近要连接的设备。在建立连接时，它们可以交换数据。当手机与ESP32进行数据交换时，手机通常处于主模式，ESP32为从模式。
 
-![图片不存在](./Arduino/media/086194049ec20b12b1a7cda437023331.png)
+![](./Arduino/media/086194049ec20b12b1a7cda437023331.png)
 
 **3.项目接线：**
 
 使用USB线将ESP32主板连接到电脑上的USB口。
 
-![图片不存在](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
+![](./Arduino/media/46cf3a8a1c79e456ac0f02da5ef38aec.png)
 
 **4.项目代码：**
 
@@ -2223,35 +2223,35 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **5.项目现象：**
 
-编译并上传代码到ESP32，上传成功后，打开串行监视器，波特率设置为<span style="color: rgb(255, 76, 65);">115200</span>。当您看到串行打印出字符串，如下所示，表示ESP32的蓝牙已就绪，等待与手机连接。(如果打开串口监视器且设置波特率为115200之后，串口监视器窗口没有显示如下信息，可以按下ESP32的复位键![图片不存在](./Arduino/media/515a31c10d414cae43980905e7df1879.jpg)）
+编译并上传代码到ESP32，上传成功后，打开串行监视器，波特率设置为<span style="color: rgb(255, 76, 65);">115200</span>。当您看到串行打印出字符串，如下所示，表示ESP32的蓝牙已就绪，等待与手机连接。(如果打开串口监视器且设置波特率为115200之后，串口监视器窗口没有显示如下信息，可以按下ESP32的复位键![](./Arduino/media/515a31c10d414cae43980905e7df1879.jpg)）
 
-![图片不存在](./Arduino/media/d0a0c882ace0c67de3ee19b193da139b.png)
+![](./Arduino/media/d0a0c882ace0c67de3ee19b193da139b.png)
 
 请确认你的手机已开启手机蓝牙，且已安装“**串口蓝牙终端**”的蓝牙应用程序。
 
-![图片不存在](./Arduino/media/a934651544f086913a236e35568f7cd3.png)
+![](./Arduino/media/a934651544f086913a236e35568f7cd3.png)
 
-![图片不存在](./Arduino/media/4959397f4ab4f8f2e4c06ad6f29573a0.png)
+![](./Arduino/media/4959397f4ab4f8f2e4c06ad6f29573a0.png)
 
 手机自动搜索附近的蓝牙设备，点击“ESP32 test”进行配对，出现配对对话框，点击“**配对**”，这样“ESP32 test”设备就连接好了。
 
-![图片不存在](./Arduino/media/d20253dd32917c9854ba20039af99f2d.png)
+![](./Arduino/media/d20253dd32917c9854ba20039af99f2d.png)
 
-![图片不存在](./Arduino/media/2c2aad793f4aa811e5bcc90cd303db85.png)
+![](./Arduino/media/2c2aad793f4aa811e5bcc90cd303db85.png)
 
-![图片不存在](./Arduino/media/8d2671b30598c93329ac52ad6d757f60.png)
+![](./Arduino/media/8d2671b30598c93329ac52ad6d757f60.png)
 
 打开软件APP，点击终端左侧。选择 "Devices"。
 
-![图片不存在](./Arduino/media/48b660760c72d0e5ed654a8265875d16.png)
+![](./Arduino/media/48b660760c72d0e5ed654a8265875d16.png)
 
-![图片不存在](./Arduino/media/72831d7e8b780025c88537b3236bfca3.png)
+![](./Arduino/media/72831d7e8b780025c88537b3236bfca3.png)
 
 选择经典蓝牙模式下的ESP32test，会出现如下图所示的连接成功提示。
 
-![图片不存在](./Arduino/media/6e718c2e2c99c80c557b5c4941305a7d.png)
+![](./Arduino/media/6e718c2e2c99c80c557b5c4941305a7d.png)
 
-![图片不存在](./Arduino/media/023dba247c7da46105e2d68363ee443c.png)
+![](./Arduino/media/023dba247c7da46105e2d68363ee443c.png)
 
 现在，数据可以通过ESP32在你的手机和电脑之间传输。
 
@@ -2259,7 +2259,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 ![Img](./media/img-20241101135753.png)
 
-![图片不存在](./Arduino/media/cbce154e5bbe1dc985183b3ed2125191.png)
+![](./Arduino/media/cbce154e5bbe1dc985183b3ed2125191.png)
 
 
 ## 项目23 WiFi 工作模式
@@ -2272,7 +2272,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **1.实验元件：**
 
-|![图片不存在](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)|![图片不存在](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|
+|![](./Arduino/media/2266d29566a875c35c2bd4be3e4a23f8.png)|![](./Arduino/media/afc52f6616725ba37e3b12a2e01685ad.png)|
 | :--: | :--: |
 | USB 线 x1|ESP32x1|
 
@@ -2280,13 +2280,13 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 使用USB线将ESP32主板连接到电脑上的USB口。
 
-![图片不存在](./Arduino/media/3e0498944fc51e44b30bb90e2ae86b35.png)
+![](./Arduino/media/3e0498944fc51e44b30bb90e2ae86b35.png)
 
 **3.元件知识：**
 
 **Station 模式：** 当ESP32选择Station模式时，它作为一个WiFi客户端。它可以连接路由器网络，通过WiFi连接与路由器上的其他设备通信。如下图所示，PC和路由器已经连接，ESP32如果要与PC通信，需要将PC和路由器连接起来。
 
-![图片不存在](./Arduino/media/227039c89f94a5ffbc04bca9f9e61e40.png)
+![](./Arduino/media/227039c89f94a5ffbc04bca9f9e61e40.png)
 
 
 **4.项目代码：**
@@ -2309,7 +2309,7 @@ T1，T2是开尔文温度(绝对温度)，开尔文温度=273.15 +摄氏温度�
 
 **5.项目现象：**
 
-确认正确输入自己的WiFi名称和密码后，编译并上传代码到ESP32主板，上传成功后，单击图标![Img](./media/img-20241023142105.png)进入串行监视器，设置波特率为<span style="color: rgb(255, 76, 65);">115200</span>。当ESP32成功连接到WiFi时，串行监视器将打印出WiFi分配给ESP32的IP地址。然后串口监视器窗口将显示如下：(如果打开串口监视器且设置波特率为115200之后，串口监视器窗口没有显示如下信息，可以按下ESP32的复位键![图片不存在](./Arduino/media/515a31c10d414cae43980905e7df1879.jpg)）
+确认正确输入自己的WiFi名称和密码后，编译并上传代码到ESP32主板，上传成功后，单击图标![Img](./media/img-20241023142105.png)进入串行监视器，设置波特率为<span style="color: rgb(255, 76, 65);">115200</span>。当ESP32成功连接到WiFi时，串行监视器将打印出WiFi分配给ESP32的IP地址。然后串口监视器窗口将显示如下：(如果打开串口监视器且设置波特率为115200之后，串口监视器窗口没有显示如下信息，可以按下ESP32的复位键![](./Arduino/media/515a31c10d414cae43980905e7df1879.jpg)）
 
 ![Img](./media/img-20241105090946.png)
 
